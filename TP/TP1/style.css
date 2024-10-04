@@ -11,20 +11,19 @@ label[for="email"] {
     color: red;
 }
 
-form {
+/* form {
     width: 100%;
     max-width: 900px;
     border-collapse: collapse;
-}
+} */
 
-.form-row {
-    display: flex;
+.row {
     padding: 10px;
     margin-top: 3px;
     margin-bottom: 3px;
     border: 2px solid black;
 }
 
-.form-row label, .form-row input {
+/* .form-row label, .form-row input {
     margin-right: 10px;
-}
+} */
