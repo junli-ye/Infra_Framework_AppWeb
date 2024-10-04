@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+}
+
+label {
+    font-weight: bold;
+}
+
+label[for="email"] {
+    color: red;
+}
+
+form {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+}
+
+.form-row {
+    display: flex;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: 2px solid black;
+}
+
+.form-row label, .form-row input {
+    margin-right: 10px;
+}
